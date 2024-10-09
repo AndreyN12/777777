@@ -1,0 +1,19 @@
+{
+  "name": "my-progect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html --no-cache",
+    "build": "parcel build ./src/index.js"
+  },
+  "author": "Andrey",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.0"
+  }
+}
